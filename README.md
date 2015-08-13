@@ -1,12 +1,10 @@
-# _{Application Name}_
+# Scrabble Score Generator
 
-##### _{Brief description of application}, {Date of current version}_
-
-#### By Filipe Silvestre
+#### By Filipe Silvestre, Micah Courey
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. Do you want other developers to use this code in their apps? Talk about things like that here in simple terms.}_
+This will calculate the scrabble score based on a word, or letter, that a user enters.
 
 ## Setup
 
@@ -20,7 +18,7 @@ Front-End: Bootstrap framework with HTML5, CSS
 
 ### Legal
 
-Copyright (c) 2015 Filipe Silvestre
+Copyright (c) 2015 Filipe Silvestre, Micah Courey
 
 This software is licensed under the MIT license.
 
