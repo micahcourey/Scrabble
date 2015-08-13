@@ -43,4 +43,17 @@
             //Assert
             $this->assertEquals(56, $result);
         }
+
+        function test_calculateScore_checkInvalidInputTest()
+        {
+            // Setup test
+            $test_ScrabbleGenerator = new ScrabbleGenerator;
+            $input = 'a8dj$##a';
+
+            //Act
+            $result = $test_ScrabbleGenerator->calculateScore($input);
+
+            //Assert
+            $this->assertEquals(12, $result);
+        }
     }

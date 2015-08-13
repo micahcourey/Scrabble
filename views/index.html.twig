@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
-    <title>Index</title>
-</head>
-<body>
-    <div class='container'>
-        <h1>Index</h1>
-        <p>You can start making your web applications!</p>
-    </div>
-</body>
+    <head>
+        <title>Scrabble Score Generator</title>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Scrabble Score Generator</h1>
+            <p>Enter a word to get your score</p>
+            <form action="/result">
+                <div class="form-group">
+                    <label for="word">Phrase:</label>
+                    <input id="word" name="word" class="form-control" type="text">
+                </div>
+                <button type="submit" class="btn-success">Generate Score</button>
+            </form>
+        </div>
+    </body>
 </html>
