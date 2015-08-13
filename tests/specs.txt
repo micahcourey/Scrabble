@@ -1,0 +1,12 @@
+
+
+Test 1: Enter a letter, make sure it outputs something
+    OUTPUT: Something
+
+
+
+
+
+
+Test 1: Return the computed score
+  OUTPUT: Score
