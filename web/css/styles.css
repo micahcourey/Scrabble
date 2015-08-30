@@ -1,0 +1,17 @@
+header {
+    text-align: center;
+    background
+}
+body {
+    background-color: #17255A;
+    color: #BD1E1E;
+}
+
+.button {
+    text-align:center;
+    margin:auto;
+}
+
+a:hover {
+    text-decoration: none;
+}
